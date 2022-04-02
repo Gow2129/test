@@ -22,9 +22,3 @@ char_type_t find_char_type(const char input_char){
 
 }
 
-
-int main(){
-    char input_char;
-    scanf("%s",input_char);
-     printf("%s",find_char_type(input_char));
-}
